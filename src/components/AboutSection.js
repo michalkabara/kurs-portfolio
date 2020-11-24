@@ -1,4 +1,5 @@
 import React from "react"
+import home1 from "../img/home1.png"
 
 const AboustSection = () => {
   return (
@@ -24,7 +25,7 @@ const AboustSection = () => {
         <button>Contact us</button>
       </div>
       <div className="image">
-        <img src="../img/home1.png" alt="guy with the camera" />
+        <img src={home1} alt="guy with the camera" />
       </div>
     </div>
   )

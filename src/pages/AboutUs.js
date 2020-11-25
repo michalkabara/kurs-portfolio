@@ -3,7 +3,7 @@ import AboutSection from "../components/AboutSection"
 import ServicesSection from "../components/ServicesSection"
 import FaqSection from "../components/FaqSection"
 
-const Aboutus = () => {
+const AboutUs = () => {
   return (
     <>
       <AboutSection />
@@ -13,4 +13,4 @@ const Aboutus = () => {
   )
 }
 
-export default Aboutus
+export default AboutUs

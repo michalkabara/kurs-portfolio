@@ -27,7 +27,7 @@ const MovieDetail = () => {
         >
           <Headline>
             <h2>{movie.title}</h2>
-            <img src={movie.mainImg} alt="movie" />
+            <motion.img src={movie.mainImg} alt="movie" />
           </Headline>
           <Awards>
             {movie.awards.map((award) => (
@@ -39,7 +39,7 @@ const MovieDetail = () => {
             ))}
           </Awards>
           <ImageDisplay>
-            <img src={movie.secondaryImg} alt="movie" />
+            <motion.img src={movie.secondaryImg} alt="movie" />
           </ImageDisplay>
         </Details>
       )}

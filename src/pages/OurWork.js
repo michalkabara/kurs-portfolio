@@ -9,26 +9,32 @@ import { pageAnimation } from "../animation"
 
 const OurWork = () => {
   return (
-    <Work variants={pageAnimation} exit="exit" initial="hidden" animate="show">
+    <Work
+      variants={pageAnimation}
+      exit="exit"
+      initial="hidden"
+      animate="show"
+      style={{ background: "#fff" }}
+    >
       <Movie>
         <h2>The Athlete</h2>
         <div className="line"></div>
         <Link to="/work/the-athlete">
-          <img src={athlete} alt="athlete" />
+          <motion.img src={athlete} alt="athlete" />
         </Link>
       </Movie>
       <Movie>
         <h2>The Racer</h2>
         <div className="line"></div>
         <Link to="/work/the-racer">
-          <img src={theracer} alt="theracer" />
+          <motion.img src={theracer} alt="theracer" />
         </Link>
       </Movie>
       <Movie>
         <h2>Good Times</h2>
         <div className="line"></div>
         <Link to="/work/good-times">
-          <img src={goodtimes} alt="goodtimes" />
+          <motion.img src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>
     </Work>

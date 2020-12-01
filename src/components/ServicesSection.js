@@ -7,6 +7,7 @@ import teamwork from "../img/teamwork.svg"
 import home2 from "../img/home2.png"
 import styled from "styled-components"
 import { About, Description, Image } from "../styles"
+import { motion } from "framer-motion"
 
 const ServicesSection = () => {
   return (
@@ -18,28 +19,28 @@ const ServicesSection = () => {
         <Cards>
           <Card>
             <div className="icon">
-              <img src={clock} alt="" />
+              <motion.img src={clock} alt="" />
               <h3>Efficient</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
-              <img src={teamwork} alt="" />
+              <motion.img src={teamwork} alt="" />
               <h3>Teamwork</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
-              <img src={diaphragm} alt="" />
+              <motion.img src={diaphragm} alt="" />
               <h3>Diaphragm</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
           </Card>
           <Card>
             <div className="icon">
-              <img src={money} alt="" />
+              <motion.img src={money} alt="" />
               <h3>Affordable</h3>
             </div>
             <p>Lorem ipsum dolor sit amet.</p>
@@ -47,7 +48,7 @@ const ServicesSection = () => {
         </Cards>
       </Description>
       <Image>
-        <img src={home2} alt="" />
+        <motion.img src={home2} alt="" />
       </Image>
     </Services>
   )

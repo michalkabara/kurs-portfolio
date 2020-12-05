@@ -4,6 +4,7 @@ import { About, Description, Image, Hide } from "../styles"
 //framer import
 import { motion } from "framer-motion"
 import { titleAnim, fade, zoom } from "../animation"
+import Wave from "./Wave"
 
 const AboustSection = () => {
   return (
@@ -31,6 +32,7 @@ const AboustSection = () => {
       <Image variants={zoom}>
         <img src={home1} alt="guy with the camera" />
       </Image>
+      <Wave />
     </About>
   )
 }

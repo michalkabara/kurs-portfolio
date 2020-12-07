@@ -9,7 +9,7 @@ import styled from "styled-components"
 import { About, Description, Image } from "../styles"
 
 import { fade } from "../animation"
-import useScroll from "../components/useScroll"
+import { useScroll } from "../components/useScroll"
 
 const ServicesSection = () => {
   const [element, controls] = useScroll()

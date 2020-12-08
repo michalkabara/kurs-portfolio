@@ -29,8 +29,8 @@ const AboustSection = () => {
         </motion.p>
         <motion.button variants={fade}>Contact us</motion.button>
       </Description>
-      <Image variants={zoom}>
-        <img src={home1} alt="guy with the camera" />
+      <Image>
+        <motion.img variants={zoom} src={home1} alt="guy with the camera" />
       </Image>
       <Wave />
     </About>
